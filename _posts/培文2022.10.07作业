@@ -1,0 +1,36 @@
+培文2022.10.07作业
+
+网址：oj.mimadao.com
+
+#1320. 判断数正负
+
+#include<iostream>
+#include<cstdio>
+using namespace std;
+int main()
+{
+	int n;
+	cin>>n;
+	if(n>0)
+	    cout<<"positive"<<endl;
+	else if(n==0)
+	    cout<<"zero"<<endl;
+	else if(n<0)
+	    cout<<"negative"<<endl;
+	return 0;
+}
+
+#1325. 收集卡片赢大奖
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	if(a>=10||b>=20)
+	    cout<<1<<endl;
+	else
+	    cout<<0<<endl;
+	return 0;
+}
