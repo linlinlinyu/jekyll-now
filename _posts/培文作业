@@ -1,9 +1,8 @@
-##培文2022.09.25作业
+培文2022.09.25作业
 
 网址：oj.mimadao.com
 
 1017. 数位交换
-```
 #include<iostream>
 using namespace std;
 int main()
@@ -16,10 +15,8 @@ int main()
 	cout<<c<<b<<a;
 	return 0;
 }
-```
 
 2151. 字符三角形
-```
 #include<iostream>
 using namespace std;
 int main()
@@ -31,4 +28,3 @@ int main()
 	cout<<a<<a<<a<<a<<a; 
 	return 0;
 }
-```
